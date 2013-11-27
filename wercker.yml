@@ -5,6 +5,9 @@ build:
         hostname: github.com
         local: false
     - script:
+        name: cat hosts
+        code: cat /etc/ssh/ssh_known_hosts
+    - script:
         name: Clone something
         code: sudo git clone git@github.com:pjvds/iPong.git
 
