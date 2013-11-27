@@ -3,6 +3,7 @@ build:
   steps:
     - add-to-known_hosts:
         hostname: github.com
+        local: false
     - script:
         name: Clone something
         code: sudo git clone git@github.com:pjvds/iPong.git
