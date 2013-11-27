@@ -1,4 +1,4 @@
-box: wercker/ubuntu12.04-webessentials
+box: nuzz/sightmachine@0.0.13
 build:
   steps:
     - script:
