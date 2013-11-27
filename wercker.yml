@@ -1,0 +1,6 @@
+box: wercker/ubuntu12.04-webessentials
+build:
+  steps:
+    - script:
+        name: Clone something
+        code: git clone git@github.com:pjvds/iPong.git
