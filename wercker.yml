@@ -8,6 +8,6 @@ build:
         name: cat hosts
         code: cat /etc/ssh/ssh_known_hosts
     - script:
-        name: Clone something
-        code: sudo git clone git@github.com:pjvds/iPong.git
+        name: ssh
+        code: sudo ssh -v git@github.com
 
