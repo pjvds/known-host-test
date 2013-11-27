@@ -1,6 +1,8 @@
 box: nuzz/sightmachine@0.0.13
 build:
   steps:
+    - add-to-known_hosts:
+        hostname: github.com
     - script:
         name: Clone something
         code: sudo git clone git@github.com:pjvds/iPong.git
