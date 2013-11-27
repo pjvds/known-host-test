@@ -3,7 +3,6 @@ build:
   steps:
     - add-to-known_hosts:
         hostname: github.com
-        local: false
     - script:
         name: cat hosts
         code: cat /etc/ssh/ssh_known_hosts
